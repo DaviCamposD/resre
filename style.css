@@ -24,8 +24,8 @@ body::before {
     height: 100%;
     background:
         radial-gradient(circle at 20% 50%, rgba(114, 255, 71, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(114, 255, 71, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 40% 80%, rgba(114, 255, 71, 0.08) 0%, transparent 50%);
+        radial-gradient(circle at 80% 20%, rgba(114, 255, 71, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 40% 80%, rgba(114, 255, 71, 0.06) 0%, transparent 50%);
     pointer-events: none;
     z-index: -1;
 }
@@ -247,7 +247,7 @@ nav a:hover::after {
 }
 
 .img_hero img {
-    width: 150%;
+    width: 800px;
 }
 
 /* 2° parte */
@@ -416,7 +416,7 @@ nav a:hover::after {
 }
 
 .experiencia-card {
-    background: linear-gradient(135deg, #1dee9300 0%, #1dee930a 100%);
+    background: linear-gradient(135deg, #00000000 0%, #0000000a 100%);
     backdrop-filter: blur(20px);
     border: 1px solid #1dee93(255, 71, 87, 0.2);
     border-radius: 25px;
@@ -883,5 +883,6 @@ footer .name {
         width: 100%;
         height: 100%;
     }
+
 
 }
