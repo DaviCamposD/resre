@@ -1011,6 +1011,7 @@ footer .name {
         height: auto;
         margin-left: 0px;
         margin-top: 50px;
+        animation: fadeInUp 2s ease 0s forwards;
     }
 
     .sobre {
@@ -1107,3 +1108,4 @@ footer .name {
     }
 
 }
+
