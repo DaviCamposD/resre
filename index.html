@@ -17,6 +17,7 @@
                 <a href="#home">Home</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#experiencia">Experiência</a>
+                <a href="#skills">Skills</a>
                 <a href="#projetos">Projetos</a>
                 <a href="#contato">Contato</a>
             </nav>
@@ -73,9 +74,36 @@
             <div class="quote-icon">" 👀👀</div>
             <p class="experiencia-text">Em busca da minha primeira experiência "oficial" :)</p>
             <p class="experiencia-note">Quem sabe na sua empresa?</p>
-            <p class="contact-info">Estou disponível para bater um papo, você pode entrar em contato via e-mail:
+            <p class="contact-info">Estou disponível para conversar, você pode entrar em contato via e-mail:
                 <span>davicampos313@gmail.com</span>
             </p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>SKILLS</h2>
+
+        <div class="skills-container">
+
+            <div class="skills-card">
+                <h3>💻 Hard Skills</h3>
+                <ul>
+                    <li><i class="fas fa-code"></i> HTML, CSS, JavaScript, MySQL, C#</li>
+                    <li><i class="fas fa-paint-brush"></i> UI/UX e Design Responsivo</li>
+                    <li><i class="fas fa-laptop-code"></i>GitHub</li>
+                    <li><i class="fas fa-bolt"></i> Animações e Efeitos Front-end</li>
+                </ul>
+            </div>
+
+            <div class="skills-card">
+                <h3>🌱 Soft Skills</h3>
+                <ul>
+                    <li><i class="fas fa-users"></i> Trabalho em equipe</li>
+                    <li><i class="fas fa-lightbulb"></i> Resolução de problemas</li>
+                    <li><i class="fas fa-clock"></i> Gestão de tempo</li>
+                    <li><i class="fas fa-brain"></i> Aprendizado contínuo</li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -222,7 +250,6 @@
 
     <script>
 
-
         // decer clean
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -239,7 +266,7 @@
 
         // itens aparecem de acordo com que eu deco o site
         const sections = document.querySelectorAll(
-            ".hero, .sobre, .experiencia, .projetos, #contato"
+            ".hero, .sobre, .experiencia, .projetos, .skills"
         );
 
         const observer = new IntersectionObserver((entries, observer) => {
